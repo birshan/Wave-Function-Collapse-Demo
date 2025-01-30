@@ -1,0 +1,2147 @@
+{
+  "objects": [
+    {
+      "name": "wall",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 180
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall-corner",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 270
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 180
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-corner",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [
+          {
+            "object": "wall-corner",
+            "rotation": 270
+          },
+          {
+            "object": "wall",
+            "rotation": 90
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 90
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 90
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 90
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 270
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 270
+          }
+        ],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 180
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 180
+          }
+        ],
+        "negativeZ": []
+      }
+    },
+    {
+      "name": "wall-corner-half",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 270
+          },
+          {
+            "object": "wall",
+            "rotation": 90
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 90
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 90
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 90
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 270
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 270
+          }
+        ],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 90
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 180
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 180
+          }
+        ],
+        "negativeZ": []
+      }
+    },
+    {
+      "name": "wall-corner-half-tower",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 270
+          },
+          {
+            "object": "wall-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 270
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 90
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 270
+          }
+        ],
+        "negativeX": [],
+        "positiveZ": [],
+        "negativeZ": [
+          {
+            "object": "wall-corner-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-corner-slant",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 270
+          },
+          {
+            "object": "wall",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 180
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 270
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 90
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 90
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 90
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 270
+          }
+        ],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 90
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 90
+          },
+          {
+            "object": "wall-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 180
+          }
+        ],
+        "negativeZ": []
+      }
+    },
+    {
+      "name": "wall-doorway",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 180
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 270
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-half",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 180
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 270
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-narrow",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 0
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 270
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-narrow-gate",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 90
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-narrow-stairs",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 90
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 180
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-narrow-stairs-rail",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 0
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 270
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-narrow-wood",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 0
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 270
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-narrow-wood-fence",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 0
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 270
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-pillar",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 180
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall-corner",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 270
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 270
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-doorway",
+            "rotation": 180
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 180
+          },
+          {
+            "object": "wall-to-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall",
+            "rotation": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "wall-to-narrow",
+      "data": {
+        "positiveY": [],
+        "negativeY": [],
+        "positiveX": [],
+        "negativeX": [],
+        "positiveZ": [
+          {
+            "object": "wall",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-half",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 0
+          },
+          {
+            "object": "wall-corner-half-tower",
+            "rotation": 90
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 180
+          },
+          {
+            "object": "wall-corner-slant",
+            "rotation": 90
+          },
+          {
+            "object": "wall-half",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 180
+          },
+          {
+            "object": "wall-pillar",
+            "rotation": 0
+          }
+        ],
+        "negativeZ": [
+          {
+            "object": "wall-doorway",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-gate",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs",
+            "rotation": 180
+          },
+          {
+            "object": "wall-narrow-stairs-rail",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood",
+            "rotation": 0
+          },
+          {
+            "object": "wall-narrow-wood-fence",
+            "rotation": 0
+          }
+        ]
+      }
+    }
+  ]
+}
