@@ -6747,7 +6747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8584444921379016823, guid: 0b22a6ea477da314bba3521151788841, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6756,6 +6756,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6659609303836472226, guid: 0b22a6ea477da314bba3521151788841, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7978272523064669271}
+    - targetCorrespondingSourceObject: {fileID: 6659609303836472226, guid: 0b22a6ea477da314bba3521151788841, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7978272523064669275}
   m_SourcePrefab: {fileID: 100100000, guid: 0b22a6ea477da314bba3521151788841, type: 3}
 --- !u!1 &7978272523064669267 stripped
 GameObject:
@@ -6788,6 +6791,27 @@ MonoBehaviour:
   jsonReader: {fileID: 7978272523064669268}
   Dimension: 30
   NumberOfTiles: 40
+--- !u!114 &7978272523064669275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7978272523064669267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 667530ab2a492404a9a628bc466128e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jsonReader: {fileID: 7978272523064669268}
+  Dimension: 20
+  NumberOfTiles: 40
+  cubePrefab: {fileID: 3892828398951389610, guid: e46340768aebec347ba530454fb9f746, type: 3}
+  defaultCubeMaterial: {fileID: 2100000, guid: bfd452fa7dc5ccc4281b0ddfcee22b61, type: 2}
+  collapsedCubeMaterial: {fileID: 2100000, guid: 908bdc7f2d27b3649a5666fb425d4e31, type: 2}
+  propagatingCubeMaterial: {fileID: 2100000, guid: 2b479579a7247c746a91044068795c47, type: 2}
+  QueuedCubeMaterial: {fileID: 2100000, guid: 33b39e1282a47564d86c89ed494f591a, type: 2}
+  propagationDelay: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
