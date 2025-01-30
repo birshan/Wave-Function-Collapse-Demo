@@ -21,7 +21,12 @@ public class WaveFunctionCollapse: MonoBehaviour
     // private List<NamedObject>[,] possibleTiles;
     private Dictionary<Vector3Int, List<string>> cellPossibilities; // We dont need a 2d array as each cell is unit size in unity.. so we can just loop 3 times, 1 for each axis, and since each prefab is 1meter cube, we can just use the vector3int as the key
     private int tileCount = 0;
+    private AudioSource audioSource;
     private Queue<Vector3Int> cellsToProcess = new Queue<Vector3Int>(); // Queue of cells to process
+    public float PlacementDelay = 0.5f; // Delay between tile placements
+    private void Awake() {
+        audioSource = GetComponent<AudioSource>();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -96,6 +101,7 @@ public class WaveFunctionCollapse: MonoBehaviour
 
         while (cellsToProcess.Count > 0 && tileCount < NumberOfTiles)
         {
+            yield return new WaitForSeconds(PlacementDelay);
             tileCount++;
             Vector3Int currentCell = GetLowestEntropyCell();
             NamedObject tile = GetValidTile(currentCell);
@@ -261,9 +267,33 @@ public class WaveFunctionCollapse: MonoBehaviour
         //print out which key we are adding to placedTiles
         Debug.Log($"PLACEDTILES DICTIONARY - Adding tile at position: {Position} with rotation: {rotation}");
         placedTiles.Add(Position, (instance, rotation));
+        //animation
+        instance.transform.localScale = Vector3.zero;
+        float audioDuration = audioSource.clip.length;
+        StartCoroutine(AnimateTilePlacement(instance, audioDuration));
+        placedTiles[Position] = (instance, rotation); // Store the placed tile and its rotation
 
+        //sound effect
+        audioSource.Play();
     }
+    private IEnumerator AnimateTilePlacement(GameObject instance, float duration)
+    {
+        float t = 0;
+        Vector3 startScale = Vector3.zero;
+        Vector3 targetScale = Vector3.one;
 
+        while (t < duration)
+        {
+            // t += Time.deltaTime * AnimationSpeed;
+            // instance.transform.localScale = Vector3.Lerp(startScale, targetScale, t);
+            // yield return null;
+
+            t += Time.deltaTime;
+            float normalizedTime = t/(duration-0.2f); //convert to 0 to 1 range
+            instance.transform.localScale = Vector3.Lerp(startScale, targetScale, normalizedTime);
+            yield return null;
+        }
+    }
     private void LoadTileDataFromJSONReader()
     {
         if (jsonReader == null || jsonReader.jsonFile == null)

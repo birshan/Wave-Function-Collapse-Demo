@@ -25,13 +25,13 @@ public class BreadthFirstExpansion : MonoBehaviour
     {
         LoadTileDataFromJSONReader(); // Load tile data from JSON
         LoadPrefabs(); // Load prefabs from Resources
-        StartCoroutine(GenerateWFC()); // Start the WFC algorithm
+        StartCoroutine(GenerateLevel()); // Start the WFC algorithm
     }
 
     // plug to ui later
     public void BeginWFC()
     {
-        StartCoroutine(GenerateWFC());
+        StartCoroutine(GenerateLevel());
     }
 
     /// Load tile data from the JSONReaderWithRotations
@@ -65,7 +65,7 @@ public class BreadthFirstExpansion : MonoBehaviour
 
 
     // Coroutine to generate the grid using the WFC algorithm
-    private IEnumerator GenerateWFC()
+    private IEnumerator GenerateLevel()
     {
         placedTiles = new Dictionary<Vector3Int, (GameObject instance, int rotation)>(); // Initialize placed tiles dictionary
 

@@ -22,6 +22,12 @@ public class WaveFunctionCollapseVisualized: MonoBehaviour
     public Material propagatingCubeMaterial; // Material for the cubes that are currently propagating constraints
     public Material QueuedCubeMaterial; // Material for the cubes that are queued for processing
     public float propagationDelay = 0.1f;
+    private AudioSource audioSource;
+    public CameraPivotController cameraPivotController;
+
+    private void Awake() {
+        audioSource = GetComponent<AudioSource>();
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -60,7 +66,7 @@ public class WaveFunctionCollapseVisualized: MonoBehaviour
         //check if key exists at dictionary first
         if (!cellVisuals.ContainsKey(position))
         {
-            Debug.LogError($"Key {position} does not exist in cellVisuals dictionary");
+            Debug.Log($"Key {position} does not exist in cellVisuals dictionary");
             return;
         }
         cellVisuals[position].GetComponent<Renderer>().material = material;
@@ -85,6 +91,7 @@ public class WaveFunctionCollapseVisualized: MonoBehaviour
         Vector3Int centerOfGrid = new Vector3Int(Dimension / 2, 0, Dimension / 2);
         NamedObject firstTile = tiles["wall"];
         PlaceTile(centerOfGrid, firstTile); //I removed the third parameter rotation because we are using named objects here, and we append the rot to the name in propagate constraints anyway. Named Objects has appended rotations.
+        // yield return new WaitForSeconds(1f);
         yield return StartCoroutine(CollapseCell(centerOfGrid, firstTile));
 
         while (cellsToProcess.Count > 0 && tileCount < NumberOfTiles)
@@ -97,6 +104,8 @@ public class WaveFunctionCollapseVisualized: MonoBehaviour
             yield return StartCoroutine(CollapseCell(currentCell, tile));
             // yield return null;
         }
+
+        
     }
 
     private NamedObject GetValidTile(Vector3Int cellPosition)
@@ -111,6 +120,7 @@ public class WaveFunctionCollapseVisualized: MonoBehaviour
     private IEnumerator CollapseCell(Vector3Int cellPosition, NamedObject tile)
     {
         changeColourOfCubeAt(cellPosition, collapsedCubeMaterial); //cells that have collapsed
+        yield return new WaitForSeconds(0.5f);
         //get the superposition of the cell
         List<string> superposition = cellPossibilities[cellPosition];
         //remove all the tiles that are not equal to the tile that we placed in that position
@@ -259,7 +269,35 @@ public class WaveFunctionCollapseVisualized: MonoBehaviour
         //print out which key we are adding to placedTiles
         Debug.Log($"PLACEDTILES DICTIONARY - Adding tile at position: {Position} with rotation: {rotation}");
         placedTiles.Add(Position, (instance, rotation));
+        //animation
+        instance.transform.localScale = Vector3.zero;
+        float audioDuration = audioSource.clip.length;
+        StartCoroutine(AnimateTilePlacement(instance, audioDuration));
+        placedTiles[Position] = (instance, rotation); // Store the placed tile and its rotation
 
+        //sound effect
+        audioSource.Play();
+
+        //set new camera pivot point
+        // cameraPivotController.SetPivot(new Vector3(Position.x, Position.y, Position.z));
+    }
+    private IEnumerator AnimateTilePlacement(GameObject instance, float duration)
+    {
+        float t = 0;
+        Vector3 startScale = Vector3.zero;
+        Vector3 targetScale = Vector3.one;
+
+        while (t < duration)
+        {
+            // t += Time.deltaTime * AnimationSpeed;
+            // instance.transform.localScale = Vector3.Lerp(startScale, targetScale, t);
+            // yield return null;
+
+            t += Time.deltaTime;
+            float normalizedTime = t/(duration-0.2f); //convert to 0 to 1 range
+            instance.transform.localScale = Vector3.Lerp(startScale, targetScale, normalizedTime);
+            yield return null;
+        }
     }
 
     private void LoadTileDataFromJSONReader()

@@ -3294,10 +3294,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 963194228}
-  pivotPoint: {x: 0, y: 0, z: 0}
+  pivotPoint: {x: 10, y: 0, z: 10}
   height: 5
   distance: 10
-  rotationSpeed: 10
+  rotationSpeed: 3
 --- !u!1001 &973469680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6783,14 +6783,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7978272523064669267}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e1ba6da6610be804283c207f8b359b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   jsonReader: {fileID: 7978272523064669268}
-  Dimension: 30
+  Dimension: 20
   NumberOfTiles: 40
+  PlacementDelay: 0.2
 --- !u!114 &7978272523064669275
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6798,7 +6799,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7978272523064669267}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 667530ab2a492404a9a628bc466128e0, type: 3}
   m_Name: 
@@ -6811,7 +6812,8 @@ MonoBehaviour:
   collapsedCubeMaterial: {fileID: 2100000, guid: 908bdc7f2d27b3649a5666fb425d4e31, type: 2}
   propagatingCubeMaterial: {fileID: 2100000, guid: 2b479579a7247c746a91044068795c47, type: 2}
   QueuedCubeMaterial: {fileID: 2100000, guid: 33b39e1282a47564d86c89ed494f591a, type: 2}
-  propagationDelay: 0.2
+  propagationDelay: 0.1
+  cameraPivotController: {fileID: 963194229}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
